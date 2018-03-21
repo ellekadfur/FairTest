@@ -100,12 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				8188C2D320620F070038C482 /* AppDelegate.swift */,
+				8188C2DD20620F070038C482 /* Assets.xcassets */,
 				8188C2D520620F070038C482 /* ViewController.swift */,
 				8188C2D720620F070038C482 /* Main.storyboard */,
-				8188C2DD20620F070038C482 /* Assets.xcassets */,
-				8188C2DF20620F070038C482 /* LaunchScreen.storyboard */,
-				8188C2E220620F070038C482 /* Info.plist */,
-				8188C2DA20620F070038C482 /* FairTest.xcdatamodeld */,
+				8188C30420620FA20038C482 /* Config */,
 			);
 			path = FairTest;
 			sourceTree = "<group>";
@@ -126,6 +124,16 @@
 				8188C2F820620F070038C482 /* Info.plist */,
 			);
 			path = FairTestUITests;
+			sourceTree = "<group>";
+		};
+		8188C30420620FA20038C482 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8188C2DF20620F070038C482 /* LaunchScreen.storyboard */,
+				8188C2E220620F070038C482 /* Info.plist */,
+				8188C2DA20620F070038C482 /* FairTest.xcdatamodeld */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AN66X2S3W9;
-				INFOPLIST_FILE = FairTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FairTest/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.z.ljc.FairTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,7 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AN66X2S3W9;
-				INFOPLIST_FILE = FairTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FairTest/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.z.ljc.FairTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
